@@ -1,0 +1,12 @@
+name: Week4_Assignment
+title: Week4_Assignment
+username:
+account: takuyawakayama
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3456807
+bundleId: 4076147
+url: https://takuyawakayama.shinyapps.io/Week4_Assignment/
+when: 1610207808.09949
+asMultiple: FALSE
+asStatic: FALSE

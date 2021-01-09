@@ -1,0 +1,37 @@
+Decision Tree Prediction for Iris Data Set
+========================================================
+author: Takuya Wakayama
+date: 2021/01/09
+autosize: true
+
+Executive Summary
+========================================================
+
+This is a brief summary of Decision Tree classification for the Species in the famous Edgar Anderson's Iris data. 
+
+The measurements of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+The goal is to predict the Species with Tree and experiment "what-if this value in that variable" with Decision Tree algorithm.
+
+
+Decision Tree
+========================================================
+
+![plot of chunk unnamed-chunk-1](Presentation_Assignment-figure/unnamed-chunk-1-1.png)
+
+As highlighted above, the tree branches at 2 points,
+Petal Length and Petal Width.
+
+Decision Tree
+========================================================
+In the below link, you can play with experiment the prediction. The main feature of the that is trying to predict what the prediction for the species of a new observation would be given we know all other predictors.
+
+<https://takuyawakayama.shinyapps.io/Week4_Assignment/>
+
+Conclusion
+========================================================
+Playing the app in the previous page, you may find the prediction results changes:
+* Much more when you change the value of Petal Length or Petal Width.
+* Much less when you change the value of Sepal Length or Sepal Width.
+
+That is what the decision tree discussed and we expected. Also in the scatter plot in the app, you may be much more confident about how clearly the 2 Petal variables separate the Species.  
